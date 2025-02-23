@@ -18,8 +18,9 @@ O primeiro commit deste repositório já virá com um boilerplate pronto para o 
 - **Node.js**: Ambiente de execução para JavaScript.
 - **Express**: Framework web para Node.js, facilitando a criação de aplicações web e APIs.
 - **EJS (Embedded JavaScript Templates)**: Motor de templates que permite gerar HTML com código JavaScript embutido.
-- **MongoDB**: Ferramenta para persistir dados.
+- **MongoDB**: Banco de dados NoSQL para persistir dados.
 - **Mongoose**: Ferramenta para modelagem dos dados.
+- **Bootstrap**: Framework front-end que facilita a criação de interfaces responsivas e estilizadas.
 
 ## Status do projeto
 
