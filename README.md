@@ -21,6 +21,7 @@ O primeiro commit deste repositório já virá com um boilerplate pronto para o 
 - **MongoDB**: Banco de dados NoSQL para persistir dados.
 - **Mongoose**: Ferramenta para modelagem dos dados.
 - **Bootstrap**: Framework front-end que facilita a criação de interfaces responsivas e estilizadas.
+- **bcrypt**: Ferramenta para hashing de senhas.
 
 ## Status do projeto
 
