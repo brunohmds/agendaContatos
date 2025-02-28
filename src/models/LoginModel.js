@@ -42,7 +42,7 @@ class Login {
         this.user = await LoginModel.findOne({ email: this.body.email });
         if (!this.user) {
             this.errors.push("Usuário não existe.")
-                return;
+            return;
         }
 
         const isPasswordValid = await bcryptjs.compare(this.body.password, this.user.password);
