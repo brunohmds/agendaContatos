@@ -64,6 +64,19 @@ class Contato {
         return contato;
     }
 
+    async editContato(id) {
+        if(typeof id !== 'string'){
+            return;
+        }
+        
+        this.valida();        
+        if(this.errors.length > 0){
+            return;
+        }
+        
+        this.contato = await ContatoModel.findByIdAndUpdate(id, this.body, { new: true });
+    }
+
 }
 
 module.exports = Contato;
