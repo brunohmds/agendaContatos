@@ -25,4 +25,4 @@ O primeiro commit deste repositório já virá com um boilerplate pronto para o 
 
 ## Status do projeto
 
-**Em desenvolvimento**
+**Finalizado**

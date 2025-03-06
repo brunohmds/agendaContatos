@@ -31,14 +31,12 @@ const sessionOptions = session({
         httpOnly: true
     }
 });
+
 app.use(sessionOptions);
 app.use(flash());
-
 app.set('views', path.resolve(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs');
-
 app.use(csrf());
-// Middleware pessoal
 app.use(middleWareGlobal);
 app.use(checkCsrfError);
 app.use(csrfMiddleware);
